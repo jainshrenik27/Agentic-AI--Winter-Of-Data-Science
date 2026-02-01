@@ -1,16 +1,84 @@
-# Agentic-AI--Winter-Of-Data-Science
+🤖 Agentic-AI — Winter of Data Science
 
-# hugging_face_models.pynb -- 
+This repository documents my learning journey and hands-on work during Winter of Data Science, focused on Agentic AI, Hugging Face models, neural networks from scratch, and LangChain.
 
-1. Python script that imports pipeline from transformers and creates a summarization pipeline using pipeline("summarization"). Inside the script, define a long paragraph of at least four to five sentences as a single Python string, and then call the summarization pipeline on this string while specifying reasonable min_length and max_length values to control the size of the summary.
-2. Python script that imports pipeline from transformers and creates a text generation pipeline using pipeline("text-generation"). In this script, define a prompt such as "In 2030, AI systems will" and call the pipeline with this prompt.
-3. Python script that imports the pipeline function from transformers and creates a sentiment analysis pipeline using pipeline("sentiment-analysis")
+📂 Project Structure & Contents
+📁 hugging_face_models.ipynb
 
-# Neural_network_from_scratch --
+This notebook contains hands-on experiments using the Hugging Face Transformers library with different NLP pipelines.
 
-1.Implemented a Neural Network from scratch for the MNIST dataset.Code for the same is in the notebook
+1️⃣ Text Summarization
 
-# Langchain -- 
+Uses pipeline("summarization") from transformers
 
-Langchain framework for agentic AI is learnt through hands on learning
+A long paragraph (4–5 sentences) is defined as a single Python string
 
+The summarization pipeline is applied with appropriate min_length and max_length values to control summary size
+
+2️⃣ Text Generation
+
+Uses pipeline("text-generation")
+
+A prompt such as:
+
+"In 2030, AI systems will"
+
+
+is passed to the model
+
+Demonstrates open-ended text generation using a pretrained language model
+
+3️⃣ Sentiment Analysis
+
+Uses pipeline("sentiment-analysis")
+
+Performs sentiment classification on sample input text
+
+Outputs sentiment labels and confidence scores
+
+📁 Neural_network_from_scratch
+
+Implemented a Neural Network from scratch without using high-level deep learning frameworks
+
+Applied to the MNIST handwritten digit dataset
+
+Covers:
+
+Forward propagation
+
+Backpropagation
+
+Weight and bias updates
+
+Training and evaluation logic
+
+Complete implementation is provided in the notebook inside this folder
+
+📁 Langchain
+
+Hands-on learning and experimentation with the LangChain framework
+
+Focuses on building agentic AI workflows
+
+Explores:
+
+LLM orchestration
+
+Tool usage
+
+Prompt chaining
+
+
+Agent-based reasoning
+
+Emphasis on practical understanding rather than theory
+
+🎯 Learning Outcomes
+
+Practical understanding of Hugging Face NLP pipelines
+
+Strong grasp of neural network fundamentals by implementing one from scratch
+
+Exposure to agentic AI concepts using LangChain
+
+Experience in structuring AI workflows and experiments in notebooks
